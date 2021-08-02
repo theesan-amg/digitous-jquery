@@ -1,7 +1,4 @@
-$(document).ready
     
-$(button).click(function(){
-    $(text).hide();
-$(text).toggle();
-
-});
+$(function(){
+    $("button").click(displaySecretText);    
+    });
